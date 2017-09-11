@@ -71,7 +71,7 @@ namespace RouteFinderLibrary.Tests
         [Test]
         [Description("Framework Design Guidelines for Collections. " +
                      "DO NOT return null values from collection properties or from methods returning " +
-                     "collections. Return an empty collection or an empty array instead." +
+                     "collections. Return an empty collection or an empty array instead. " +
                      "https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections")]
         public void EmptyInputCollectionProducesEmptyOutputCollection()
         {
