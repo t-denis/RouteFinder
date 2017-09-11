@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteFinderLibrary", "RouteFinderLibrary\RouteFinderLibrary.csproj", "{3A5358B7-D169-445A-961E-613C853C5E85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteFinderLibrary.Tests", "RouteFinderLibrary.Tests\RouteFinderLibrary.Tests.csproj", "{95117363-8F89-4DF6-993A-0CED38A5143A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A5358B7-D169-445A-961E-613C853C5E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5358B7-D169-445A-961E-613C853C5E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5358B7-D169-445A-961E-613C853C5E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5358B7-D169-445A-961E-613C853C5E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95117363-8F89-4DF6-993A-0CED38A5143A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95117363-8F89-4DF6-993A-0CED38A5143A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95117363-8F89-4DF6-993A-0CED38A5143A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95117363-8F89-4DF6-993A-0CED38A5143A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C218C557-AACB-4B0A-A252-64F0060B15AE}
+	EndGlobalSection
+EndGlobal
