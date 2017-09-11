@@ -49,11 +49,6 @@ namespace RouteFinderLibrary.Tests
                 new RouteSegment("Moscow", "Paris"),
             };
             CollectionAssert.AreEqual(expected, route, new RouteSegmentComparer());
-
-            foreach (var item in route)
-            {
-                Console.WriteLine(item);
-            }
         }
 
         [Test]
